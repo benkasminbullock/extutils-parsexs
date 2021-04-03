@@ -63,8 +63,10 @@ WriteMakefile(
   'PREREQ_PM' => {
     'Carp' => 0,
     'Cwd' => 0,
+    # Used by tests only
     'DynaLoader' => 0,
     'Exporter' => '5.57',
+    # Used by tests only
     'ExtUtils::CBuilder' => 0,
     'File::Basename' => 0,
     'File::Spec' => 0,
