@@ -2,3 +2,4 @@ META.json
 META.yml
 Makefile
 blib/*
+myscript.pl
