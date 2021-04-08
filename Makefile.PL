@@ -63,16 +63,16 @@ WriteMakefile(
   'PREREQ_PM' => {
     'Carp' => 0,
     'Cwd' => 0,
-    # Used by tests only
-    'DynaLoader' => 0,
     'Exporter' => '5.57',
-    # Used by tests only
-    'ExtUtils::CBuilder' => 0,
     'File::Basename' => 0,
     'File::Spec' => 0,
     'Symbol' => 0,
     'Test::More' => '0.47',
     'ExtUtils::MakeMaker' => '6.46',
+
+    # The following are used only by the tests
+    'DynaLoader' => 0,
+    'ExtUtils::CBuilder' => 0,
   },
   CONFIGURE_REQUIRES => {
     'ExtUtils::MakeMaker' => '6.46',
